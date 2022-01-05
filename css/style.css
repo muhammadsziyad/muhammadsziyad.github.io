@@ -1,47 +1,7 @@
 @charset "UTF-8";
 
-/* ----------------------------------
 
-Name: style.css
-Version: 3.0
-
--------------------------------------
-
-Table of contents
-        
-    01. Google font
-    02. Reset
-    03. Typography
-    04. Background color
-    05. Custom
-    06. Button
-    07. Border
-    08. Aside style
-    09. Video
-    10. Background image
-    11. Margin
-    12. Padding
-    13. Display and float
-    14. Position
-    15. Width
-    16. Height
-    17. Icon
-    18. Magnific popup
-    19. Header
-    20. Page title
-    21. Swiper carousel
-    22. Grid
-    23. Portfolio
-    24. Elements
-    25. Blog
-    26. Footer
-    27. Home page
-    28. Others
-*/
-
-/* ===================================
-    01. Google font
-====================================== */
+/* Google font */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
@@ -51,9 +11,8 @@ Table of contents
     font-family: 'Indie Flower', cursive;
 }
 
-/* ===================================
-    02. Reset
-====================================== */
+/* Defined */
+
 html {font-size: 15px;}
 body {font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased; font-smoothing: antialiased; font-size:14px; color:#6f6f6f; font-weight: 400;line-height: 24px;}
 body, html {height: 100%; -moz-osx-font-smoothing: grayscale;}
@@ -95,12 +54,8 @@ header [class^="container-"] [class^="col-"], header [class^="container-"] [clas
     :root {scroll-behavior: auto}
 }
 
-/* base color variable*/
+/* base color blue */
 :root {--base-color: #5ec7e7;}
-
-/* ===================================
-    03. Typography
-====================================== */
 
 /* font family */
 .alt-font {font-family: 'Montserrat', sans-serif; font-weight: 500}
@@ -267,9 +222,7 @@ a.text-very-light-gray-hover:hover {color:#ededed !important;}
 .line-height-110 {line-height:110px}
 .line-height-120 {line-height:120px}
 
-/* ===================================
-    04. Background color
-====================================== */
+/* background color */
 
 .bg-transparent, .background-transparent {background-color: transparent;}
 .bg-white, .background-white {background-color:#fff;}
@@ -591,9 +544,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .border-radius-100 {border-radius:100%}
 .border-radius-none {border-radius:0}
 
-/* ===================================
-    08. Aside style
-====================================== */
+/*Aside styl*/
 
 .aside-title {position: relative; overflow:hidden}
 .aside-title span {display: inline-block; vertical-align:middle; margin-right: 20px;}
@@ -601,18 +552,14 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .right-sidebar {padding-right:60px;}
 .left-sidebar {padding-left:60px;}
 
-/* ===================================
-    09. Video
-====================================== */
+/* Video */
 
 .video-wrapper {height: 100%; overflow: hidden; position: absolute; width: 100%;}
 .htms-video {background-color: #000; height: auto; left: 50%; min-height: 100%; min-width: 100%; position: absolute; top: 50%; -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%);  width: auto; z-index: -3;}
 .video-wrapper iframe {height: 100%; left: 0; position: absolute; top: -5px !important; width: 100%;}
 .video-background{position: absolute; height: 100%; width: 100%; z-index: 1; top:0; background: rgba(67,67,67,0.5)}
 
-/* ===================================
-    10. Background image
-====================================== */
+/* Background image */
 
 .parallax {position: relative !important; background-size: cover !important; overflow: hidden; background-attachment: fixed !important; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s;}
 .fix-background {background-attachment: fixed !important; background-position: center center; background-repeat: no-repeat; background-size: cover !important; overflow: hidden; position: relative; transition-duration: 0.2s; transition-timing-function: ease-in;}
@@ -626,9 +573,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .up-down-ani {display:table; position: relative; -webkit-animation-name: up-down-animation; -webkit-animation-duration:.7s; -webkit-animation-timing-function: linear; -webkit-animation-delay:.7s; -webkit-animation-iteration-count: infinite; -webkit-animation-direction: alternate; -moz-animation-name: up-down-animation; -moz-animation-duration:.7s; -moz-animation-timing-function: linear; -moz-animation-delay:.7s; -moz-animation-iteration-count: infinite; -ms-animation-name: up-down-animation; -ms-animation-duration:.7s; -ms-animation-timing-function: linear; -ms-animation-delay:.7s; -ms-animation-iteration-count: infinite; -ms-animation-direction: alternate; -o-animation-direction: alternate; -o-animation-name: up-down-animation; -o-animation-duration:.7s; -o-animation-timing-function: linear; -o-animation-delay:.7s; -o-animation-iteration-count: infinite; -o-animation-direction: alternate; animation-direction: alternate; animation-name: up-down-animation; animation-duration:.7s; animation-timing-function: linear; animation-delay:.7s; animation-iteration-count: infinite; animation-direction: alternate; margin:0 auto;}
 .background-position-x-50 {background-position-x: 50% !important;}
 
-/*==============================
-    11. Margin
-================================*/
+/* Margin */
 
 .margin-half-all {margin:.5%}
 .margin-one-all {margin:1%}
@@ -1143,9 +1088,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .margin-95px-tb {margin-top:95px; margin-bottom:95px;}
 .margin-100px-tb {margin-top:100px; margin-bottom:100px;}
 
-/* ===============================
-    12. Padding
-================================= */
+/* Padding */
 
 .no-padding {padding:0 !important}
 .no-padding-lr {padding-left: 0 !important; padding-right: 0 !important}
@@ -1662,18 +1605,14 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .padding-95px-lr {padding-left:95px; padding-right:95px;}
 .padding-100px-lr {padding-left:100px; padding-right:100px;}
 
-/* ==============================
-    13. Display and float
-================================ */
+/*  Display and float*/
 
 .d-initial {display: initial !important;}
 .overflow-hidden {overflow:hidden !important;}
 .overflow-visible {overflow:visible !important;}
 .overflow-auto {overflow:auto !important;}
 
-/* ============================== 
-    14. Position
-================================ */
+/* Position */
 
 .position-inherit {position:inherit !important}
 
@@ -1775,9 +1714,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .right-9 {right:9px}
 .right-10 {right:10px}
 
-/* ================================
-    15. Width
-================================ */
+/* Width */
 
 .w-1px {width:1px;}
 .w-2px {width:2px;}
@@ -1850,9 +1787,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .w-100 {width:100%;}
 .w-auto {width: auto}
 
-/* ================================ 
-    16. Height
-================================ */
+/* Height */
 
 .h-1px {height: 1px}
 .h-2px {height: 2px}
@@ -1906,9 +1841,7 @@ textarea.input-bg {background-color: #f7f7f7; border-radius: 4px; border: 1px so
 .one-fifth-screen {height:900px;}
 .one-sixth-screen {height:887px;}
 
-/* ===================================
-    17. Icon
-====================================== */
+/* Icon */
 
 /* icon size */
 .icon-very-small {font-size: 16px}
@@ -2171,9 +2104,7 @@ footer .small-icon li {margin: 0 8px;}
 .icon-country.hong-kong {background:url("../images/country-flag-16X16/hong-kong.png")}
 .icon-country.france {background:url("../images/country-flag-16X16/france.png")}
 
-/* ===================================
-    18. Magnific popup
-====================================== */
+/*  Magnific popup */
 
 .mfp-bg, .my-mfp-zoom-in.mfp-ready.mfp-bg, .my-mfp-slide-bottom.mfp-ready.mfp-bg {background: #000; opacity: 0.93;}
 .mfp-bg, .mfp-wrap {z-index: 10007}
@@ -2258,9 +2189,7 @@ footer .small-icon li {margin: 0 8px;}
 .alert-dismissible .btn-close {height: 100%; background-size: 10px; padding-top: 0; padding-bottom: 0; outline: none;}
 .alert-dismissible .btn-close:focus {box-shadow: none;}
 
-/* ===================================
-    19. Header
-====================================== */
+/* Header */
 .side-left-menu-close {display: none; position: fixed; top: 0; right: 0; height:100%;}
 
 /* header icon */
@@ -2933,9 +2862,7 @@ header.sticky nav.navbar.brand-center ul.nav > li > a {padding: 20px; margin: 0 
 .grid-filter li a {border: 0; border-bottom: 1px solid; border-color: transparent; color:#828282; padding-bottom: 2px;}
 .grid-filter > li.active > a, .grid-filter > li.active > a:focus, .grid-filter > li.active > a:hover, .grid-filter > li > a:hover {border: 0; color: inherit; border-bottom: 1px solid; color: #232323}
 
-/* ===================================
-    23. Portfolio
-====================================== */
+/* Portfolio */
 .portfolio-wrapper .grid-item figure {margin: 0; position: relative; overflow: hidden}
 .portfolio-wrapper .grid-item {opacity: 1;overflow: hidden;}
 .portfolio-wrapper .grid-item figure img {cursor: pointer; display: block; opacity: 1; width: 100%; transition: all 0.3s ease 0s;}
@@ -3569,9 +3496,7 @@ figure{margin: 0;}
 .testimonial-box .image-box {display: table-cell; vertical-align: middle}
 .testimonial-box .name-box {display: table-cell; vertical-align: middle}
 
-/* ===================================
-   25. Blog
-====================================== */
+/*Blog */
 .blog-grid .grid-item a {position: relative; z-index: 11;}
 .blog-image a > img {width: 100%}
 
@@ -3665,9 +3590,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 .blog-comment li ul.child-comment {margin-left: 40px; list-style: none}
 .blog-comment li ul.child-comment li {border: none; padding-bottom: 0; border-top: 1px solid #ededed; margin-top: 50px}
 
-/* ===================================
-    26. Footer
-====================================== */
+/* Footer */
 
 /* scroll to top */
 .scroll-top-arrow, .scroll-top-arrow:focus {color: #fff; background: #878787; line-height: 28px; display: none; height: 30px; width: 30px; padding: 0; position: fixed; right: 45px; text-align: center; text-decoration: none; top: 91%; z-index: 10006; border-radius: 100%;}
